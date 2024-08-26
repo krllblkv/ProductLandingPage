@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #eee;
+  background-color: #e3d8cf;
   font-family: 'Lato', sans-serif;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #000;
+  color: black;
   text-decoration: none;
 }
 
@@ -48,10 +48,11 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #eee;
+  background-color: #dcdcda;
 }
 .logo {
   width: 60vw;
+  color: green;
 }
 
 
@@ -113,7 +114,7 @@ nav > ul {
   height: 30px;
   margin: 15px 0;
   border: 0;
-  background-color: #f1c40f;
+  background-color: #3699bf;
 }
 
 #hero input[type='submit']:hover {
@@ -131,7 +132,7 @@ nav > ul {
   justify-content: center;
   height: 125px;
   width: 20vw;
-  color: darkorange;
+  color: green;
 }
 
 #benefits .desc {
@@ -152,6 +153,7 @@ nav > ul {
 #production > iframe {
   max-width: 560px;
   width: 100%;
+  border: 1px solid black;
 }
 
 #pricing {
@@ -173,7 +175,7 @@ nav > ul {
 }
 
 .product > .level {
-  background-color: #ddd;
+  background-color: #868c87;
   color: black;
   padding: 15px 0;
   width: 100%;
@@ -196,7 +198,7 @@ nav > ul {
 .product > button {
   border: 0;
   margin: 15px 0;
-  background-color: #f1c40f;
+  background-color: #95b9c8;
   font-weight: 400;
 }
 
@@ -207,17 +209,18 @@ nav > ul {
 
 footer {
   margin-top: 30px;
-  background-color: #ddd;
+  background-color: #95b9c8;
   padding: 20px;
 }
 
 footer > ul {
+  
   display: flex;
   justify-content: flex-end;
 }
 
 footer > ul > li {
-  padding: 0 10px;
+  padding: 0 30px;
 }
 
 footer > span {
